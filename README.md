@@ -15,17 +15,13 @@ git branch -d <BRANCH_NAME>
 git branch
 #### list all branches, local and remote
 git branch -a
-####
-See logs and what changed
+#### See logs and what changed
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-####
-Go back to a specific commit
+#### Go back to a specific commit
 Git --reset HARD head~2
-####
-See configuration
+#### See configuration
 git config --list
-####
-Change git config
+#### Change git config
 vi ~/.gitconfig
-####
+#### 
 Git remote -v 
