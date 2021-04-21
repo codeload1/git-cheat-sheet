@@ -27,14 +27,15 @@ vi ~/.gitconfig
 Git remote -v 
 
 #### Steps
+
 git checkout foobar (if you're not there already)
-make changes
+#### make changes
 git add .
 git commit -m "message"
-(make more changes, git add, git commit...wash, rinse repeat)
+#### (make more changes, git add, git commit...wash, rinse repeat)
 git push origin foobar (to save your changes to your remote branch)
 =========================
-when your feature is developed and you want it in master/main
+#### when your feature is developed and you want it in master/main
 git checkout master (switch to master
 git pull origin master (update your local copy of master)
 git merge <feature> (merge your feature into your local copy of master)
